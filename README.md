@@ -16,7 +16,7 @@ Aqui no departamento temos uma pasta compartilha e pretendemos migrar boa parte 
 
 ## Metodologia
 
-Inspirados (neste post)[https://janakiev.com/blog/python-filesystem-analysis/] vamos criar notebooks com comandos afim de gerar um fluxo descritivo da real situação da nossa pasta compartilhada.
+Inspirados [neste post](https://janakiev.com/blog/python-filesystem-analysis/) vamos criar notebooks com comandos afim de gerar um fluxo descritivo da real situação da nossa pasta compartilhada.
 Depois dos primeiros diagnósticos podemos pensar em um script para automatizar tarefas e até migração para o CKan.
 
 ## Dados sensível
