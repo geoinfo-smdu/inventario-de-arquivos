@@ -22,4 +22,4 @@ Depois dos primeiros diagnósticos podemos pensar em um script para automatizar 
 ## Dados sensíveis
 
 O local da pasta não pode ser compartilhado por diretrizes de segurança e ficará em um arquivo ignorado dos comits, porém que será importado para os notebooks e scripts.
-Portanto, para utilizar estes notebooks adicione o arquivo `pasta_compartilhada.py` ao seu projeto
+Portanto, para utilizar estes notebooks adicione o arquivo `env.py` ao seu projeto
