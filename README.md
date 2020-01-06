@@ -23,3 +23,9 @@ Depois dos primeiros diagnósticos podemos pensar em um script para automatizar 
 
 O local da pasta não pode ser compartilhado por diretrizes de segurança e ficará em um arquivo ignorado dos comits, porém que será importado para os notebooks e scripts.
 Portanto, para utilizar estes notebooks adicione o arquivo `env.py` ao seu projeto
+
+## Folder Stats
+
+[Folderstats](https://github.com/njanakiev/folderstats) é uma lib em Python que pode auxiliar a criar um csv com toda a estrutura de uma pasta e a partir dela fazer análises. Para isso usamos o comando:
+
+`folderstats -o csv/nas_geoinfo.csv -c md5 -a -i -p -v <folderpath>`
