@@ -29,3 +29,8 @@ Portanto, para utilizar estes notebooks adicione o arquivo `env.py` ao seu proje
 [Folderstats](https://github.com/njanakiev/folderstats) é uma lib em Python que pode auxiliar a criar um csv com toda a estrutura de uma pasta e a partir dela fazer análises. Para isso usamos o comando:
 
 `folderstats -o csv/nas_geoinfo.csv -c md5 -a -i -p -v <folderpath>`
+
+## Utilizando o PowerShell
+
+Acabamos tendo contato com o PowerShell que se mostrou bastante eficaz para tarefas como essa que nos propomos. Criamos o script `inventario_de_arquivos.ps1` para executar uma tarefa similar, com resultados bons. 
+Para executar o script é necessário o PowerShell, assim como um arquivo `env.ps1` que deverá contem uma variável com o alvo (target) que será analisado

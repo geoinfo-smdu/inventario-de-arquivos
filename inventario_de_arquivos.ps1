@@ -3,7 +3,7 @@ $csv = "./csv/geoinfo_nas_folder_pwshell.csv"
 $campos > $csv
 . ./env.ps1
 
-$files = Get-ChildItem -Path $source -Recurse -Depth 10000
+$files = Get-ChildItem -Path $target -Recurse -Depth 10000
 
 ForEach ($file in $files) {
     [array]$f = $file.FullName,
